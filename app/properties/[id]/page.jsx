@@ -3,7 +3,6 @@ import PropertyHeaderImage from '@/components/PropertyHeaderImage';
 import connectDB from '@/config/database';
 import Property from '@/models/Property';
 import Link from 'next/link';
-import React from 'react';
 import { FaArrowLeft } from 'react-icons/fa';
 
 const PropertyPage = async ({ params }) => {
@@ -34,5 +33,4 @@ const PropertyPage = async ({ params }) => {
     </>
   );
 };
-
 export default PropertyPage;

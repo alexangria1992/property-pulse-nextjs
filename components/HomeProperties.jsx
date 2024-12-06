@@ -5,6 +5,7 @@ import PropertyCard from './PropertyCard';
 import Link from 'next/link';
 import connectDB from '@/config/database';
 import Property from '@/models/Property';
+import properties from '@/properties.json';
 
 const HomeProperties = async () => {
   await connectDB();
